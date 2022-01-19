@@ -1,0 +1,43 @@
+.heading{
+    text-align: center;
+    background:var(--gradient);
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    padding:1rem;
+}
+
+nav.logo a.logo{
+    font-size: 2rem;
+    color:var(--naranja);
+    text-decoration: none;
+}
+
+header .navbar a{
+    font-size: 1.7rem;
+    margin-left: 2rem;
+    color:var(--naranja);
+    text-decoration: none;
+}
+
+a.logo span{
+    color:var(--gris);
+}
+
+header .navbar a:hover{
+    color:var(--gris);
+}
+
+header input{
+    display: none;
+}
+
+header label{
+    font-size: 3rem;
+    color:var(--naranja);
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+}

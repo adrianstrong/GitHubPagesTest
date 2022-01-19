@@ -1,0 +1,29 @@
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:url(images/home-bg-img.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .image img{
+    width:40vw;
+}
+
+.home .content h3{
+    font-size: 5.5rem;
+    color:#333;
+    text-transform: uppercase;
+}
+
+.home .content h3 span{
+    text-transform: uppercase;
+    color: var(--gris);
+}
+
+.home .content p{
+    font-size: 1.7rem;
+    color:#666;
+    padding:1rem 0;
+}
