@@ -78,6 +78,10 @@ header label{
     transition: all .3s linear;
 }
 
+.bg-light {
+    --bs-bg-opacity: 0;
+ }
+
 .btn:hover{
     transform: scale(1.1);
 }
